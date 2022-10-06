@@ -1,0 +1,1 @@
+Een portfolio van mij dat ik online heb kunnen genereren in de vorm van een PHP-bestand. De overige bestanden waren om te oefenen met hyperlinks in een website, die het doorstuurt van het ene naar het andere bestand. 
