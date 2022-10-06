@@ -1,0 +1,1 @@
+Document met verscheidene opdrachten die ik op school heb gemaakt, zoals het draaien van een dobbelsteen (met refresh van de pagina), een random nummer genereren met knoppen HOGER of LAGER, waarbij je gokt of het nieuwe nummer hoger of lager is, waarbij het systeem je ook het antwoord geeft, en als laatst een gegenereerd patroon van een dambord. 
