@@ -1,3 +1,1 @@
-Hallo, dit is een website gemaakt door Evan & Sanjar.
-
-De code documentatie volgt nog.
+Dit is een overzicht van kleine opdrachten om mijn vaardigheden van PHP te kunnen oefenen. 
