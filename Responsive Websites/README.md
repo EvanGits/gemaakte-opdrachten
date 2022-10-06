@@ -1,0 +1,1 @@
+Dit is een volledig gebouwde website in het thema van het stagebedrijf, waar ik gewerkt had. Dit heb ik gedaan met HTML/CSS en PHP in verschillende onderdelen, om zo samen één gehele website te krijgen. 

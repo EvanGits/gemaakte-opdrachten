@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="icon" href="TopDownDesign.gif"
+			type="image/gif" sizes="16x16">
+			<meta charset="utf-8">
+			<title>Website TopDownDesign</title>
+			<link rel="stylesheet" type="text/css" href="css/header.css">
+			<link rel="stylesheet" type="text/css" href="css/grid.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<style>
+			.mySlides {display:none;}
+			</style>
+
+</head>
+
+<body class= "container">
+
+<div class="navbar row">
+	<div class="col-xl-2 col-md-2">
+  <a class="active_1" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+</div>
+
+<div class="col-xl-2 col-md-2">
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+ </div>
+
+
+ <div class="col-xl-2 col-md-2">
+  <a href="FAQ.html"><i class="fa fa-fw fa-question"></i> FAQ</a>
+</div>
+
+<div class="col-xl-5 col-md-5">
+</div>
+
+ <div class="col-xl-1 col-md-1">
+  <a href="homepagina.html"><img border="0" alt="logo" src="logo.png" width="40" height="40">
+  </a>
+ </div>
+</div>
+
+
+<div class= "header row">
+<div class= "col-xl-12 col-md-12">
+<h1>Welkom</h1>
+<p>Voor oplossingsgerichte service binnen handbereik.<p>
+</div>
+</div> 
+
+
+
+<div class= "afbeelding-diavoorstelling"> 
+	<img class= "mySlides w3-animate-right" src= "TopDownGebouw.jpg"> 
+	<img class= "mySlides w3-animate-right" src= "TopDownLogo.jpg">
+	<img class= "mySlides w3-animate-right" src= "TopDownOntwerp.jpg" >
+
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+<div class= "mark row">
+<div class= "col-xl-12 col-md-12">
+<h3 style="text-align:center; color: #E0FAFF" ><b>Voor algemene informatie over ons bedrijf, moet u hier zijn.</b></h3>
+</div>
+</div>  
+
+
+<div class="footer row">
+<div class= "col-xl-12 col-md-12">
+	<p>KvK nummer: 61811440 <br><br> BTW nummer: NL854498825B01 <br><br> © 2021 TopDownDesign b.v.</p>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
