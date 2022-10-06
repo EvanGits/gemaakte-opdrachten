@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Torus Regular;
+    src: url('');
+}
+
+body#logIn {
+    background-image: url('');
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "backbutton field empty";
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 75%;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    background-color: var(--second-color-transparent);
+}
+
+.field {
+    position: absolute;
+    grid-area: field;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 9.5rem;
+    font-family: var(--text-style);
+    color: white;
+    text-align: center;
+    width: 75%;
+    max-width: 30rem;
+    font-size: 17px;
+    background-color: var(--first-color);
+    box-shadow: 24px 24px 0px 24px rgb(14 98 82);
+}
+
+.extend {
+    animation: extend;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+.field#logIn {
+    height: 450px;
+}
+
+.field#createAccount {
+    height: 670px;
+}
+
+.backButton {
+    grid-area: backbutton;
+    justify-self: end;
+    align-self: start;
+    margin-top: 10rem;
+    margin-right: 1rem;
+    font-family: "Torus Regular", serif;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    background-color: var(--first-color);
+    border: none;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 16px;
+}
+
+.backButton:link .backButton:visited {
+    text-decoration: none;
+}
+
+.backButton:hover {
+    cursor: pointer;
+    animation: hover 200ms;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.field [type="text"],
+[type="password"] {
+    font-family: "Torus Regular", serif;
+    font-size: 20px;
+    position: relative;
+    color: white;
+    background-color: var(--second-color);
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    width: 80%;
+    max-width: 20rem;
+    height: 2em;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.submit {
+    font-family: "Torus Regular", serif;
+    color: black;
+    font-size: 20px;
+    height: 55px;
+    width: 80%;
+    max-width: 17rem;
+    position: relative;
+    margin-top: 20px;
+    background-color: var(--fourth-color);
+    border: none;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    animation: hover 100ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover {
+    to {
+        filter: brightness(80%);
+    }
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+    position: relative;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    opacity: 0;
+    animation: show 200ms step-start 400ms;
+    animation-fill-mode: forwards;
+}
+
+.error#logIn {
+    top: 0;
+    margin-top: -20px;
+}
+
+.error#createAccount {
+    top: 20px;
+    margin-top: 0;
+}
+
+form {
+    margin-top: 4rem;
+}
+
+.hyperlinks {
+    font-family: "Segoe UI", serif;
+    font-size: 16px;
+    /* position: relative; */
+    /* transform: translate(-50%, -50%); */
+    /* display: block; */
+    left: 50%;
+    /* width: 500px; */
+    margin-top: 25px;
+    /* height: 40px; */
+    line-height: 40px;
+}
+
+.hyperlinks:link {
+    text-decoration: none;
+    color: white;
+}
+
+.hyperlinks:hover {
+    text-decoration: underline;
+}
+
+.hyperlinks:visited {
+    color: white;
+}
+
+@keyframes show {
+    to {
+        opacity: 100
+    }
+}
+
+.notification {
+    display: block;
+    opacity: 0;
+    font-family: "Torus regular", serif;
+    position: fixed;
+    z-index: 1;
+    color: lime;
+    text-align: center;
+    right: 2%;
+    bottom: 2%;
+    background-color: #3d3d3d;
+    width: 250px;
+    min-height: 50px;
+    animation: notification 3500ms;
+    vertical-align: middle;
+}
+
+.notification:hover {
+    animation: none;
+    opacity: 100;
+}
+
+.notification#error {
+    color: red;
+}
+
+@keyframes notification {
+    from {
+        opacity: 100
+    }
+
+    65% {
+        opacity: 100
+    }
+
+    to {
+        opacity: 0
+    }
+}

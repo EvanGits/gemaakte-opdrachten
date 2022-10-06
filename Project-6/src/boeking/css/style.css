@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--text-style);
+    background-color: var(--bg-color);
+    color: white;
+}
+
+.uitloggen {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 20%;
+    font-family: var(--text-style);
+    font-size: 20px;
+    background-color: var(--fourth-color);
+    border: none;
+    width: 14vh;
+    height: 4vh;
+    border-radius: 6px;
+}
+
+.lijn {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 60%;
+    background-color: var(--line-color);
+    width: 0.6vh;
+    height: 10vh;
+}
+
+.ingelogd-als {
+    position: relative;
+    margin-left: 8.5%;
+    margin-top: 4.5%;
+    width: 100vh;
+    height: 12vh;
+    background-color: var(--second-color-transparent);
+}
+
+.pagina-selecteren{
+    position: absolute;
+    width: 30vh;
+    height: 5vh;
+    background-color: var(--second-color-transparent);
+    margin-top: 1%;
+    margin-left: 89%;
+}
+
+.title {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 3%;
+}
+
+.account-boeking {
+    position: relative;
+    /* margin-left: 58.8%; */
+    /* margin-top: 1%; */
+    width: 25vh;
+    height: 4vh;
+    background-color: var(--fourth-color);
+    opacity: 0.4;
+}
+
+.boeking-title {
+    position: absolute;
+    margin-left: 12%;
+}
+
+.link-startpagina {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+
+.boeking {
+    margin-left: 12%;
+    margin-top: 8%;
+    width: 130vh;
+    height: 50vh;
+    background-color: var(--second-color);
+    box-shadow: 24px 24px 0px 24px rgba(14, 98, 82);
+}
+
+.logo {
+    background-color: var(--second-color-transparent);
+    height: 17.4%;
+    margin-bottom: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+tr {
+    text-align: center;
+    padding: 3%;
+}
+
+th {
+    background-color: var(--second-color-transparent);
+}
+
+.delete-knop {
+    background-color: tomato;
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 12px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-knop {
+    background-color: rgb(255, 197, 71);
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 12px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.create-reservation-button {
+    background-color: rgb(62, 255, 88);
+    border: none;
+    color: black;
+    width: 2em;
+    height: 2em;
+    line-height: 200%;
+    text-align: center;
+    font-size: 12px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.login-naam{
+    position: absolute;
+    font-family: var(--text-style);
+    font-size: 25px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
