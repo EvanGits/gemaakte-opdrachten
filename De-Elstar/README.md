@@ -1,3 +1,1 @@
-Hallo, dit is een website gemaakt door Evan & Sanjar.
-
-De code documentatie volgt nog.
+Dit project hoort een informatiesysteem te zijn voor fictief fietsbedrijf De Elstar, waarin de verhuurdersadministratie (huren van fietsen door klanten) geautomatiseerd hoort te zijn.
