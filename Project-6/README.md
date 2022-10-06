@@ -1,3 +1,1 @@
-Hallo, dit is een website gemaakt door Evan & Sanjar.
-
-De code documentatie volgt nog.
+Voor een fictief ezel-huifkartochtbedrijf moest met SCRUM in teamverband een webapplicatie worden gemaakt, waarin de boekingen van deze tochten beheerd kunnen worden. Ook bevat het een soort GPS systeem, om de actuele locatie en route van de tochten te weergeven en voor het fictieve bedrijf de klanten zogezegd te kunnen monitoren tijdens de rit.
