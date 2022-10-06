@@ -1,0 +1,1 @@
+Database opdracht een groot gegevenselement in een database in binaire code op te slaan. 
