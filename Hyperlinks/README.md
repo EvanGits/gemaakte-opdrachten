@@ -1,0 +1,1 @@
+Kleine HTML/CSS opdracht om de kleureigenschappen van CSS te kunnen testen. 
