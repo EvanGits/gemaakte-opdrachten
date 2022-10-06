@@ -1,0 +1,1 @@
+Een gevirtualiseerde versie van Vier-Op-Een-Stage waar ik bij mijn vorige stage aan gewerkt heb. Kan geopend worden in de localhost door op de MS-DOS folder te klikken en via de MS-DOS kan het spel geopend worden met 'connect4.exe'.
