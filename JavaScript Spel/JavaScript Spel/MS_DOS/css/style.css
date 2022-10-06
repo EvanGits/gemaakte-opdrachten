@@ -1,0 +1,186 @@
+:root
+{
+	--primaryDosColor: #2c2;
+	--secondaryDosColor: black;
+}
+
+@font-face
+{
+    font-family:"Perfect DOS VGA 437 Win";
+    src:url("Perfect_DOS_VGA_437_Win.eot?") format("eot"),
+    url("Perfect_DOS_VGA_437_Win.woff") format("woff"),
+    url("Perfect_DOS_VGA_437_Win.ttf") format("truetype"),
+    url("Perfect_DOS_VGA_437_Win.svg#PerfectDOSVGA437Win") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+::-webkit-scrollbar-track
+{
+    background-color: var(--secondaryDosColor);
+}
+
+::-webkit-scrollbar
+{
+    width: 20px;
+    background-color: var(--secondaryDosColor);
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: var(--primaryDosColor);
+    border: 5px solid var(--secondaryDosColor);
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: var(--secondaryDosColor);
+    cursor: text;
+    font-family: 'Perfect DOS VGA 437 Win';
+}
+
+#menu
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 41px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#menu a
+{
+    float: left;
+    width: calc(8.333333% - 1px);
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    color: var(--secondaryDosColor);
+    padding: 10px 0px;
+
+    background-color: var(--primaryDosColor);
+    border-right: 1px solid var(--secondaryDosColor);
+}
+
+#menu a:hover
+{
+    background-color: var(--primaryDosColor);
+	opacity: 0.7;
+}
+
+#menu a:last-child
+{
+    border: none;
+    width: 8.33333333%;
+}
+
+#footer
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--primaryDosColor);
+    height: 41px;
+}
+
+#container
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: calc( 100vh - 82px );
+    margin-top: 41px;
+}
+
+#history
+{
+    margin: 15px 15px 0px;
+    display: block;
+    color: var(--primaryDosColor);
+    width: calc(100% - 30px);
+    white-space:pre;
+    line-height: 15px;
+    font-size: 8px;
+}
+
+#loader
+{
+    margin: 0px 15px 30px;
+    display: block;
+    color: var(--primaryDosColor);
+    width: calc(100% - 30px);
+    line-height: 15px;
+    font-size: 8px;
+}
+
+#cursor
+{
+    margin: 0px 15px 30px;
+    display: block;
+    color: var(--primaryDosColor);
+    width: calc(100% - 30px);
+    line-height: 15px;
+    font-size: 8px;
+}
+
+#cursor div
+{
+    float: left;
+    white-space:pre;
+}
+
+.popup
+{
+	display: none;
+    position: fixed;
+    top: 91px;
+    right: 50px;
+    bottom: 91px;
+    left: 50px;
+    background-color: var(--secondaryDosColor);
+    border: 3px dotted var(--primaryDosColor);
+}
+
+.popup iframe
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border: none;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+}
+
+.close-box
+{
+    transform: rotate(45deg);
+    width: 50px;
+	height: 50px;
+    position: absolute;
+    right: -35px;
+    top: -36px;
+    cursor: pointer;
+}
+
+.close-box svg
+{
+	width: 50px;
+	height: 50px;
+}
+
+.close-x
+{
+    stroke: var(--primaryDosColor);
+    stroke-width: 3;
+}

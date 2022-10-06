@@ -1,0 +1,137 @@
+#TIC_area
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+	position: relative;
+}
+
+#TIC_title
+{
+	font-size: 28px;
+	margin-bottom: 10%;
+}
+
+#TIC_menu-start
+{
+	margin-top: 10%;
+	font-size: 14px;
+}
+
+#TIC_menu-standard
+{
+	margin-top: 15%;
+	margin-bottom: 5%;
+	font-size: 8px;
+}
+
+#TIC_menu-TEN
+{
+	margin-bottom: 15%;
+	font-size: 8px;
+}
+
+#TIC_menu-standard.TIC_menu-selected-option, #TIC_menu-TEN.TIC_menu-selected-option
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#TIC_menu-text
+{
+	position:absolute;
+	top: 20%;
+	left: 5%;
+	width: 90%;
+	height: 60%;
+	color: #2c2;
+	font-size: 10px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#TIC_loading-div
+{
+	position:absolute;
+	top: 40%;
+	text-align: center;
+	width: 60%;
+	height: 10%;
+	margin: 0 20%;
+}
+
+#TIC_gameover-div
+{
+	position:absolute;
+	top: 37.5%;
+	text-align: center;
+	width: 85%;
+	height: 15%;
+	margin: 0 7.5%;
+}
+
+#TIC_loading-text, #TIC_gameover-text
+{
+	padding: 2% 0;
+	color: #2c2;
+	background-color: black;
+	border-radius: 15px;
+	border: 1px solid #2c2;
+	font-size: 10px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#TIC_gameover-text p:first-child
+{
+	margin-bottom: 3%;
+}
+
+#TIC_playing-field
+{
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	z-index: 3;
+	position: absolute;
+}
+
+.TIC_grid-box
+{
+	width: calc(100% / 3 - 2px);
+	height: calc(100% / 3 - 2px);
+	float: left;
+	border: 1px solid #2c2;
+}
+
+.TIC_TEN-grid-box
+{
+	width: calc(100% / 3 - 20px);
+	height: calc(100% / 3 - 20px);
+	float: left;
+	border: 10px solid black;
+}
+
+.TIC_symbol-X
+{
+	background-image: url('../img/TIC_cross.png');
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+.TIC_symbol-O
+{
+	background-image: url('../img/TIC_circle.png');
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+.TIC_TEN-block-winner
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 4;
+}

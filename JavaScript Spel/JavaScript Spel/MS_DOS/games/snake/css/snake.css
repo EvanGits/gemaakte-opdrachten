@@ -1,0 +1,95 @@
+#SNK_area
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+#SNK_snake-length
+{
+    position: absolute;
+    color: var(--primaryDosColor);
+    width: 100%;
+    text-align: center;
+    top: -25px;
+	visibility: hidden;
+}
+
+#SNK_title
+{
+	font-size: 22px;
+	margin-bottom: 10%;
+}
+
+#SNK_menu-start
+{
+	margin-top: 10%;
+	font-size: 14px;
+}
+
+#SNK_menu-text
+{
+	position:absolute;
+	top: 20%;
+	left: 5%;
+	width: 90%;
+	height: 60%;
+	color: var(--primaryDosColor);
+	font-size: 10px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#SNK_loading-div
+{
+	position:absolute;
+	top: 45%;
+	text-align: center;
+	z-index: 4;
+	width: 60%;
+	height: 5%;
+	margin: 0 20%;
+}
+
+#SNK_loading-text
+{
+	z-index: 4;
+	padding: 2% 0;
+	color: var(--primaryDosColor);
+	background-color: var(--secondaryDosColor);
+	border-radius: 15px;
+	border: 1px solid var(--primaryDosColor);
+	font-size: 10px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#SNK_gameover-text
+{
+	position:absolute;
+	top: 40%;
+	left: 5%;
+	width: 90%;
+	color: var(--primaryDosColor);
+	font-size: 10px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#SNK_gameover-text p
+{
+	margin-top: 5%;
+}
+
+.SNK_box
+{
+    float: left;
+    background-color: var(--secondaryDosColor);
+    margin: 1px;
+	visibility: hidden;
+}
+
+.SNK_body, .SNK_food
+{
+	background-color: var(--primaryDosColor);
+}

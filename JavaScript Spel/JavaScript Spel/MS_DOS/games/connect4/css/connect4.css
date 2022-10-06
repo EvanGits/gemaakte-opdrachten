@@ -1,0 +1,112 @@
+#connect4 
+{
+	color: red;
+	padding:  100px;
+	border: 5px solid #4CAF50;
+	padding:  70x;
+}
+
+#CON_area
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+#Connect4_title
+{
+	font-size: 22px;
+	margin-bottom: 10%;
+}
+
+#CON_title
+{
+	font-size: 22px;
+	margin-bottom: 10%;
+}
+
+#CON_menu-start
+{
+	margin-top: 10%;
+	font-size: 12px;
+}
+
+#CON_menu-text
+{
+	position:absolute;
+	top: 20%;
+	left: 5%;
+	width: 90%;
+	height: 60%;
+	color: blue;
+	font-size: 10px;
+	text-align: center;
+	visibility: shown;
+}
+
+#CON_loading-div
+{
+	position:absolute;
+	top: 45%;
+	text-align: center;
+	z-index: 4;
+	width: 60%;
+	height: 5%;
+	margin: 0 11%;
+	visibility: hidden;
+}
+
+#CON_loading-text
+{
+	z-index: 4;
+	padding: 2% 0;
+	color: red;
+	background-color: var(--secondaryDosColor);
+	border-radius: 15px;
+	border: 1px solid var(--primaryDosColor);
+	font-size: 10px;
+	text-align: center;
+	visibility: shown;
+}
+
+#CON_gameover-text
+{
+	position:absolute;
+	top: 40%;
+	left: 5%;
+	width: 90%;
+	color: red;
+	font-size: 10px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#CON_gameover-text p
+{
+	margin-top: 5%;
+}
+
+
+ .CON_box
+{
+    float: left;
+    background-color: var(--secondaryDosColor);
+    border: 5px solid #5799D3;
+	visibility: hidden;
+}
+
+
+.CON_rode_schijf {
+ 
+  background-color: #F70000;
+  border-radius: 50%;
+}
+
+.CON_gele_schijf {
+ 
+  background-color: #FFFB00;
+  border-radius: 50%;
+}
+
+
