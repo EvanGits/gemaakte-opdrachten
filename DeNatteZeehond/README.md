@@ -1,3 +1,2 @@
 # DeNatteZeehond
-Oefenproject voor het examen 
-Hallo Berend zit in de github
+Oefenproject voor het examen. Gaat over een donatiesite van fictief opvangcentrum voor zeehonden. Compleet met donatieknop, overzicht, etc. 
