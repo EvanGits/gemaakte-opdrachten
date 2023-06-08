@@ -1,0 +1,31 @@
+nav{
+    background-color: #E8DFCA;
+}
+body{
+    background-color: #F5EFE6;
+}
+.primary-box-color{
+    background-color: #AEBDCA;    
+}
+
+.button-color-non{
+    background-color: #7895B2;
+}
+
+.button-color-non:hover{
+    background-color: #557697;
+}
+
+
+.button-color-pressed{
+    background-color: #557697;
+}
+
+.bdr{
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.w-60{
+    width: 60%!important;
+}
