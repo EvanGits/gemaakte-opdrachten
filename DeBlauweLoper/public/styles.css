@@ -1,0 +1,53 @@
+.kleur-header{
+    background-color: #F2DEBA;
+}
+.logo{
+    margin-top: 1%;
+}
+.text-link{
+    margin-top: 2%;
+}
+.btn{
+    background-color: #3A8891;
+    color: #FFFFFF;
+}
+.btn:hover{
+    background-color: #0E5E6F;
+    color: #FFFFFF;
+}
+/*Hier boven staat css voor de header*/
+
+body{
+    background-color: #FFEFD6;
+}
+.informatie{
+    margin-right: 50%;
+}
+
+.achtergrond-box{
+    background-color: #F2DEBA;
+    margin-top: 10rem;
+}
+.achtergrond-reg{
+    background-color: #F2DEBA;
+    margin-top: 1rem;
+}
+
+.achtergrond-contact{
+    background-color: #F2DEBA;
+}
+
+.img-right{
+    margin-right: 10rem;
+}
+
+.overzicht{
+    position: relative; 
+    text-align: center;  
+    background-color: #3A8891; 
+    color: white;
+    border: 3px solid black;
+    padding: 8px;
+    line-height: 2.0; 
+    width: 100%; 
+}
